@@ -74,7 +74,7 @@ echo         }); >> app.js
 echo }, 100); >> app.js
 
 echo [3/5] Checking Node version...
-node -v >nul 2>&1
+node -v 
 if %errorlevel% neq 0 (
     echo Node.js is not properly installed or environment variables are not configured!
     pause
