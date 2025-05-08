@@ -8,7 +8,7 @@ set /p PASSWORD=Please enter password:
 
 echo [1/5] Initializing npm project...
 cmd /c npm init -y 
-cmd /c npm install node-fetch --save >nul 2>&1
+cmd /c npm install node-fetch --save
 if %errorlevel% neq 0 (
     echo npm init failed. Please check if Node.js is properly installed!
     pause
